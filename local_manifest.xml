@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- REMOTES -->
+  <remote name="moltenmotherboard" fetch="https://github.com/MoltenMotherBoard/" />
+  <remote name="generic_github" fetch="https://github.com/" />
+
+  <!-- REPOSITORIES TO BE OVERWRITTEN -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/dalvik" />
+  <remove-project name="platform/device/common" />
+  <remove-project name="platform/external/bluetooth/bluez" />
+  <remove-project name="platform/external/bluetooth/glib" />
+  <remove-project name="platform/external/bluetooth/hcidump" />
+  <remove-project name="platform/external/dhcpcd" />
+  <remove-project name="platform/external/dnsmasq" />
+  <remove-project name="platform/external/flac" />
+  <remove-project name="platform/external/mtpd" />
+  <remove-project name="platform/external/openssl" />
+  <remove-project name="platform/external/openvpn" />
+  <remove-project name="platform/external/ppp" />
+  <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/srec" />
+  <remove-project name="platform/external/v8" />
+  <remove-project name="platform/external/webkit" />
+  <remove-project name="platform/external/webp" />
+  <remove-project name="platform/external/wpa_supplicant" />
+  <remove-project name="platform/external/wpa_supplicant_6" />
+  <remove-project name="platform/external/yaffs2" />
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/msm7k" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/ti/omap3" />
+  <remove-project name="platform/hardware/ti/wlan" />
+  <remove-project name="platform/hardware/ti/wpan" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/system/bluetooth" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/vold" />
+
+  <!-- REPOSITORIES TO BE INCLUDED -->
+  <project path="build" name="CyanogenMod/android_build" revision="gingerbread" remote="generic_github" />
+  <project path="bionic" name="CyanogenMod/android_bionic" revision="gingerbread" remote="generic_github" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" revision="gingerbread" remote="generic_github" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" revision="gingerbread" remote="generic_github" />
+  <project path="device/common" name="CyanogenMod/android_device_common" revision="gingerbread" remote="generic_github" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" revision="gingerbread" remote="generic_github" />
+  <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" revision="gingerbread" remote="generic_github" />
+  <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" revision="gingerbread" remote="generic_github" />
+  <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" revision="gingerbread" remote="generic_github" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" revision="gingerbread" remote="generic_github" />
+  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" revision="gingerbread" remote="generic_github" />
+  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" revision="gingerbread" remote="generic_github" />
+  <project path="external/flac" name="CyanogenMod/android_external_flac" revision="gingerbread" remote="generic_github" />
+  <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" revision="gingerbread" remote="generic_github" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="gingerbread" remote="generic_github" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" revision="gingerbread" remote="generic_github" />
+  <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" revision="gingerbread" remote="generic_github" />
+  <project path="external/openssl" name="CyanogenMod/android_external_openssl" revision="gingerbread" remote="generic_github" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" revision="gingerbread" remote="generic_github" />
+  <project path="external/ppp" name="CyanogenMod/android_external_ppp" revision="gingerbread" remote="generic_github" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" revision="gingerbread" remote="generic_github" />
+  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" revision="gingerbread" remote="generic_github" />
+  <project path="external/srec" name="CyanogenMod/android_external_srec" revision="gingerbread" remote="generic_github" />
+  <project path="external/v8" name="CyanogenMod/android_external_v8" revision="gingerbread" remote="generic_github" />
+  <project path="external/webkit" name="CyanogenMod/android_external_webkit" revision="gingerbread" remote="generic_github" />
+  <project path="external/webp" name="CyanogenMod/android_external_webp" revision="gingerbread" remote="generic_github" />
+  <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" revision="gingerbread" remote="generic_github" />
+  <project path="external/wpa_supplicant_6" name="CyanogenMod/external_wpa_supplicant_6" revision="gingerbread" remote="generic_github" />
+  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" revision="gingerbread" remote="generic_github" />
+  <project path="external/zlib" name="CyanogenMod/android_external_zlib" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/gpsshim" name="CyanogenMod/android_hardware_gpsshim" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/ti/omap3-compat" name="CyanogenMod/android_hardware_ti_omap3-compat" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/ti/omx" name="CyanogenMod/android_hardware_ti_omx" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/ti/syslink" name="CyanogenMod/android_hardware_ti_syslink" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/ti/tiler" name="CyanogenMod/android_hardware_ti_tiler" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="gingerbread" remote="generic_github" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" revision="gingerbread" remote="generic_github" />
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" revision="gingerbread" remote="generic_github" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" revision="gingerbread" remote="generic_github" />
+  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" revision="gingerbread" remote="generic_github" />
+  <project path="system/core" name="CyanogenMod/android_system_core" revision="gingerbread" remote="generic_github" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" revision="gingerbread" remote="generic_github" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" revision="gingerbread" remote="generic_github" />
+  <project path="system/su" name="CyanogenMod/android_system_su" revision="gingerbread" remote="generic_github" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" revision="gingerbread" remote="generic_github" />
+
+  <!-- REPOSITORIES FROM MOLTENMOTHERBOARD -->
+  <project path="device/samsung/gio" name="platform_device_samsung_gio" revision="aosp-gb" remote="moltenmotherboard" />
+  <project path="vendor/google" name="platform_vendor_google" revision="gingerbread" remote="moltenmotherboard" />
+  <project path="vendor/mmb" name="platform_vendor_mmb" revision="aosp-gb" remote="moltenmotherboard" />
+
+</manifest>
