@@ -1,0 +1,25 @@
+MoltenMotherBoard local manifests
+=================================
+
+HOW-TO:
+
+{
+  $ mkdir ~/bin
+  $ PATH=~/bin:$PATH
+  $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+  $ chmod a+x ~/bin/repo
+  $ mkdir $PROJECT_PATH
+  $ cd $PROJECT_PATH
+  $ repo init -u https://github.com/CyanogenMod/android -b gingerbread
+  $ cd ..
+} //only for the ones who hasn't already synced the sourcetree
+
+$ git clone https://github.com/MoltenMotherBoard/platform_local -b cm7
+$ mkdir $PROJECT_PATH/.repo/local_manifests
+$ mv platform_local/local_manifest.xml $PROJECT_PATH/.repo/local_manifests
+$ rm -rf platform_local
+$ cd $PROJECT_PATH
+$ repo sync
+
+
+Enjoy!
