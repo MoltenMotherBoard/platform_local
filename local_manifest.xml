@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- REMOTES -->
+  <remote name="moltenmotherboard" fetch="https://github.com/MoltenMotherBoard/" />
+  <remote name="generic_github" fetch="https://github.com/" />
+
+  <!-- REPOSITORIES TO BE OVERWRITTEN -->
+  <remove-project name="platform/frameworks/base" />
+
+  <!-- REPOSITORIES TO BE INCLUDED -->
+  <project path="frameworks/base" name="erikcas/android_frameworks_base" revision="ics-plus" remote="generic_github" />
+
+  <!-- REPOSITORIES FROM MOLTENMOTHERBOARD -->
+  <project path="device/samsung/gio" name="platform_device_samsung_gio" revision="cm9" remote="moltenmotherboard" />
+  <project path="device/samsung/msm7x27-common" name="platform_device_samsung_msm7x27-common" revision="aosp-ics" remote="moltenmotherboard" />
+  <project path="kernel/samsung/msm7x27" name="platform_kernel_samsung_msm7x27" revision="jellaxy" remote="moltenmotherboard" />
+  <project path="vendor/google" name="platform_vendor_google" revision="icecreamsandwich" remote="moltenmotherboard" />
+  <project path="vendor/mmb" name="platform_vendor_mmb" revision="aosp-ics" remote="moltenmotherboard" />
+  <project path="vendor/samsung" name="platform_vendor_samsung" revision="aosp-ics" remote="moltenmotherboard" />
+
+</manifest>
