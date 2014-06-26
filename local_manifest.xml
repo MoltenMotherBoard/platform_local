@@ -41,6 +41,7 @@
   <remove-project name="platform/system/bluetooth" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/vold" />
 
   <!-- REPOSITORIES TO BE INCLUDED -->
@@ -82,6 +83,7 @@
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" revision="ics" remote="generic_github" />
   <project path="system/core" name="CyanogenMod/android_system_core" revision="ics" remote="generic_github" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" revision="ics" remote="generic_github" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" revision="ics" remote="generic_github" />
   <project path="system/su" name="CyanogenMod/android_system_su" revision="ics" remote="generic_github" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" revision="ics" remote="generic_github" />
 
