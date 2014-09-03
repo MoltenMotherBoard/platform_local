@@ -72,7 +72,7 @@
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" revision="gingerbread" remote="generic_github" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" revision="gingerbread" remote="generic_github" />
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" revision="gingerbread" remote="generic_github" />
-  <project path="external/wpa_supplicant_6" name="CyanogenMod/external_wpa_supplicant_6" revision="gingerbread" remote="generic_github" />
+  <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" revision="gingerbread" remote="generic_github" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" revision="gingerbread" remote="generic_github" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" revision="gingerbread" remote="generic_github" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" revision="gingerbread" remote="generic_github" />
