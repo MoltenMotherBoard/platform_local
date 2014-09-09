@@ -3,23 +3,32 @@ MoltenMotherBoard local manifests
 
 HOW-TO:
 
-{
-  $ mkdir ~/bin
-  $ PATH=~/bin:$PATH
-  $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-  $ chmod a+x ~/bin/repo
-  $ mkdir $PROJECT_PATH
-  $ cd $PROJECT_PATH
-  $ repo init -u https://android.googlesource.com/platform/manifest -b android-4.0.4_r2.1
-  $ cd ..
-} //only for the ones who hasn't already synced the sourcetree
-
-$ git clone https://github.com/MoltenMotherBoard/platform_local -b aosp-ics
-$ mkdir $PROJECT_PATH/.repo/local_manifests
-$ mv platform_local/local_manifest.xml $PROJECT_PATH/.repo/local_manifests
-$ rm -rf platform_local
+# Prepare the workspace with main code line
+/*
+ * Only for the ones who hasn't already synced the source tree.
+ * Keep in mind that only the branch used in this manifest are
+ * are correctly tested.
+ * This means that we do not guarantee that applying our sources
+ * on different branches does not break the build.
+ */
+$ mkdir ~/bin
+$ PATH=~/bin:$PATH
+$ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$ chmod a+x ~/bin/repo
+$ mkdir $PROJECT_PATH
 $ cd $PROJECT_PATH
-$ repo sync
+$ repo init -u https://android.googlesource.com/platform/manifest -b android-4.0.4_r2.1
 
+# Apply new sources to the main code line
+/*
+ * We assume that you are in the folder where you have
+ * configured the workspace in, denoted by the variable PROJECT_PATH
+ * in the previous paragraph.
+ */
+$ git clone https://github.com/MoltenMotherBoard/platform_local -b aosp-ics
+$ mkdir .repo/local_manifests
+$ mv platform_local/local_manifest.xml .repo/local_manifests
+$ rm -rf platform_local
+$ repo sync
 
 Enjoy!
