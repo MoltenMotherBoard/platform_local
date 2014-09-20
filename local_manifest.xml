@@ -6,7 +6,7 @@
   <remote name="generic_github" fetch="https://github.com/" />
 
   <!-- REPOSITORIES TO BE OVERWRITTEN -->
-  <remove-project name="platform/frameworks/base" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
 
   <!-- REPOSITORIES TO BE INCLUDED -->
   <project path="frameworks/base" name="erikcas/android_frameworks_base" revision="ics-plus" remote="generic_github" />
