@@ -45,7 +45,9 @@
   <remove-project name="platform/system/vold" />
 
   <!-- REPOSITORIES TO BE INCLUDED -->
-  <project path="build" name="CyanogenMod/android_build" revision="gingerbread" remote="generic_github" />
+  <project path="build" name="CyanogenMod/android_build" revision="gingerbread" remote="generic_github">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="bionic" name="CyanogenMod/android_bionic" revision="gingerbread" remote="generic_github" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" revision="gingerbread" remote="generic_github" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" revision="gingerbread" remote="generic_github" />
