@@ -83,6 +83,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" revision="ics" remote="generic_github" />
   <project path="system/su" name="CyanogenMod/android_system_su" revision="ics" remote="generic_github" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" revision="ics" remote="generic_github" />
+  <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" revision="ics" remote="generic_github" />
 
   <!-- REPOSITORIES FROM MOLTENMOTHERBOARD -->
   <project path="device/samsung/gio" name="platform_device_samsung_gio" revision="aosp-ics" remote="moltenmotherboard" />
