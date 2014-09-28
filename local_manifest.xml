@@ -23,7 +23,6 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/srec" />
   <remove-project name="platform/external/v8" />
-  <remove-project name="platform/external/webkit" />
   <remove-project name="platform/external/wpa_supplicant" />
   <remove-project name="platform/external/wpa_supplicant_6" />
   <remove-project name="platform/external/yaffs2" />
@@ -71,7 +70,6 @@
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" revision="gingerbread" remote="generic_github" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" revision="gingerbread" remote="generic_github" />
   <project path="external/v8" name="CyanogenMod/android_external_v8" revision="gingerbread" remote="generic_github" />
-  <project path="external/webkit" name="CyanogenMod/android_external_webkit" revision="gingerbread" remote="generic_github" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" revision="gb-release-7.2" remote="generic_github" />
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" revision="gingerbread" remote="generic_github" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" revision="gingerbread" remote="generic_github" />
