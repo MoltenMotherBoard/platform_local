@@ -17,7 +17,7 @@ $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/r
 $ chmod a+x ~/bin/repo
 $ mkdir $PROJECT_PATH
 $ cd $PROJECT_PATH
-$ repo init -u https://android.googlesource.com/platform/manifest -b android-4.4.4_r2
+$ repo init -u https://android.googlesource.com/platform/manifest -b android-4.4.4_r2.0.1
 
 # Apply new sources to the main code line
 /*
