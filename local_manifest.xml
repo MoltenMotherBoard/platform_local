@@ -25,5 +25,6 @@
 
   <!-- MISC -->
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" revision="cm-11.0" remote="generic_github" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" revision="cm-11.0" remote="generic_github" />
 
 </manifest>
