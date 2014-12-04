@@ -23,4 +23,7 @@
   <project path="vendor/lge" name="P880-dev/proprietary_vendor_lge" revision="android-4.4" remote="generic_github" />
   <project path="vendor/mmb" name="platform_vendor_mmb" revision="aosp-kk" remote="moltenmotherboard" />
 
+  <!-- MISC -->
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" revision="cm-11.0" remote="generic_github" />
+
 </manifest>
