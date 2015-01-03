@@ -17,7 +17,7 @@ $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/r
 $ chmod a+x ~/bin/repo
 $ mkdir $PROJECT_PATH
 $ cd $PROJECT_PATH
-$ repo init -u https://android.googlesource.com/platform/manifest -b android-4.4.4_r2.0.1
+$ repo init -u https://android.googlesource.com/platform/manifest -b android-5.0.2_r1
 
 # Apply new sources to the main code line
 /*
@@ -25,7 +25,7 @@ $ repo init -u https://android.googlesource.com/platform/manifest -b android-4.4
  * configured the workspace in, denoted by the variable PROJECT_PATH
  * in the previous paragraph.
  */
-$ git clone https://github.com/MoltenMotherBoard/platform_local -b aosp-kk
+$ git clone https://github.com/MoltenMotherBoard/platform_local -b aosp-lp
 $ mkdir .repo/local_manifests
 $ mv platform_local/local_manifest.xml .repo/local_manifests
 $ rm -rf platform_local
