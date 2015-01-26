@@ -102,7 +102,6 @@
 
   <!-- REPOSITORIES FROM MOLTENMOTHERBOARD -->
   <project path="device/samsung/gio" name="platform_device_samsung_gio" revision="aosp-gb" remote="moltenmotherboard" />
-  <project path="vendor/google" name="platform_vendor_google" revision="gingerbread" remote="moltenmotherboard" />
   <project path="vendor/mmb" name="platform_vendor_mmb" revision="aosp-gb" remote="moltenmotherboard" />
 
 </manifest>
