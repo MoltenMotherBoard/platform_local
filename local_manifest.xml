@@ -15,7 +15,6 @@
   <project path="device/samsung/gio" name="platform_device_samsung_gio" revision="cm9" remote="moltenmotherboard" />
   <project path="device/samsung/msm7x27-common" name="platform_device_samsung_msm7x27-common" revision="aosp-ics" remote="moltenmotherboard" />
   <project path="kernel/samsung/msm7x27" name="platform_kernel_samsung_msm7x27" revision="jellaxy" remote="moltenmotherboard" />
-  <project path="vendor/google" name="platform_vendor_google" revision="icecreamsandwich" remote="moltenmotherboard" />
   <project path="vendor/mmb" name="platform_vendor_mmb" revision="cm9" remote="moltenmotherboard" />
   <project path="vendor/samsung" name="platform_vendor_samsung" revision="aosp-ics" remote="moltenmotherboard" />
 
