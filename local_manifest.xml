@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- REMOTES -->
+  <remote name="moltenmotherboard" fetch="https://github.com/MoltenMotherBoard/" />
+  <remote name="generic_github" fetch="https://github.com/" />
+  
+  <!-- REPOSITORIES TO BE OVERWRITTEN -->
+  <remove-project name="device/asus/deb"/>
+  <remove-project name="device/asus/flo" />
+  <remove-project name="device/asus/flo-kernel" />
+  <remove-project name="device/asus/fugu" />
+  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/asus/grouper" />
+  <remove-project name="device/asus/tilapia" />
+  <remove-project name="device/google/accessory/arduino" />
+  <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/htc/flounder" />
+  <remove-project name="device/htc/flounder-kernel" />
+  <remove-project name="device/lge/hammerhead" />
+  <remove-project name="device/lge/hammerhead-kernel" />
+  <remove-project name="device/lge/mako" />
+  <remove-project name="device/lge/mako-kernel" />
+  <remove-project name="device/moto/shamu" />
+  <remove-project name="device/moto/shamu-kernel" />
+  <remove-project name="device/sample" />
+  <remove-project name="device/samsung/manta" />
+
+  <!-- REPOSITORIES FROM MOLTENMOTHERBOARD -->
+  <project path="device/samsung/gio" name="platform_device_samsung_gio" revision="cm10" remote="moltenmotherboard" />
+  <project path="device/samsung/msm7x27-common" name="platform_device_samsung_msm7x27-common" revision="cm10" remote="moltenmotherboard" />
+  <project path="kernel/samsung/msm7x27" name="platform_kernel_samsung_msm7x27" revision="jellaxy" remote="moltenmotherboard" />
+  <project path="vendor/mmb" name="platform_vendor_mmb" revision="cm10" remote="moltenmotherboard" />
+  <project path="vendor/samsung" name="platform_vendor_samsung" revision="aosp-ics" remote="moltenmotherboard" />
+
+</manifest>
