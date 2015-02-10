@@ -4,12 +4,17 @@
   <!-- REMOTES -->
   <remote name="moltenmotherboard" fetch="https://github.com/MoltenMotherBoard/" />
   <remote name="generic_github" fetch="https://github.com/" />
+  <remote name="aosp" fetch="https://android.googlesource.com"/>
 
   <!-- REPOSITORIES TO BE OVERWRITTEN -->
   <remove-project name="CyanogenMod/android_frameworks_base" />
 
   <!-- REPOSITORIES TO BE INCLUDED -->
   <project path="frameworks/base" name="erikcas/android_frameworks_base" revision="ics-plus" remote="generic_github" />
+
+  <!-- FIXING SVOX DMCA STUFF -->
+  <remove-project name="CyanogenMod/android_external_svox" />
+  <project path="external/svox" name="platform/external/svox" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
 
   <!-- REPOSITORIES FROM MOLTENMOTHERBOARD -->
   <project path="device/samsung/gio" name="platform_device_samsung_gio" revision="cm9" remote="moltenmotherboard" />
