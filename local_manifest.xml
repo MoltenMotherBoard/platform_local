@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="aosp" fetch="https://android.googlesource.com" />
+
   <!-- REMOTES -->
   <remote name="moltenmotherboard" fetch="https://github.com/MoltenMotherBoard/" />
   <remote name="generic_github" fetch="https://github.com/" />
+
+  <!-- FIXING SVOX DMCA STUFF -->
+  <remove-project name="CyanogenMod/android_external_svox" />
+  <project path="external/svox" name="platform/external/svox" remote="aosp" revision="gingerbread-release" />
 
   <!-- REPOSITORIES FROM MOLTENMOTHERBOARD -->
   <project path="device/samsung/cori" name="platform_device_samsung_cori" revision="cwm-5.0.2.8" remote="moltenmotherboard" />
