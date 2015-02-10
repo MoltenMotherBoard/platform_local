@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="aosp" fetch="https://android.googlesource.com" />
-
   <!-- REMOTES -->
   <remote name="moltenmotherboard" fetch="https://github.com/MoltenMotherBoard/" />
   <remote name="generic_github" fetch="https://github.com/" />
