@@ -14,7 +14,7 @@
 
   <!-- FIXING SVOX DMCA STUFF -->
   <remove-project name="CyanogenMod/android_external_svox" />
-  <project path="external/svox" name="platform/external/svox" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/svox" name="platform/external/svox" remote="aosp" revision="ics-mr1-release" />
 
   <!-- REPOSITORIES FROM MOLTENMOTHERBOARD -->
   <project path="device/samsung/gio" name="platform_device_samsung_gio" revision="cm9" remote="moltenmotherboard" />
