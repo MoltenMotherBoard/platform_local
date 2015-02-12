@@ -37,6 +37,7 @@
   <remove-project name="platform/hardware/ti/omap3" />
   <remove-project name="platform/hardware/ti/wlan" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Camera" />
   <remove-project name="platform/system/bluetooth" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
@@ -92,6 +93,7 @@
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="gingerbread" remote="generic_github" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" revision="gingerbread" remote="generic_github" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" revision="gingerbread" remote="generic_github" />
+  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" revision="gingerbread" remote="generic_github" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" revision="gingerbread" remote="generic_github" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" revision="gingerbread" remote="generic_github" />
   <project path="system/core" name="CyanogenMod/android_system_core" revision="gingerbread" remote="generic_github" />
