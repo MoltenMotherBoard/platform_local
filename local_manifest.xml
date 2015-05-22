@@ -44,7 +44,7 @@
   <project path="build" name="CyanogenMod/android_build" revision="ics" remote="generic_github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="AR6kSDK.3.1" name="erikcas/android_hardware_ar6k" revision="master" remote="generic_github" />
+  <project path="AR6kSDK.3.1" name="android-legacy-repos/platform_hardware_ar6k" revision="master" remote="generic_github" />
   <project path="bionic" name="CyanogenMod/android_bionic" revision="ics" remote="generic_github" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" revision="ics" remote="generic_github" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" revision="ics" remote="generic_github" />
@@ -66,9 +66,9 @@
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" revision="ics" remote="generic_github" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" revision="ics" remote="generic_github" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" revision="ics" remote="generic_github" />
-  <project path="hardware/libhardware_legacy" name="erikcas/android_hardware_libhardware_legacy" revision="ics-plus" remote="generic_github" />
+  <project path="hardware/libhardware_legacy" name="android-legacy-repos/platform_hardware_libhardware_legacy" revision="ics-plus" remote="generic_github" />
   <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" revision="ics-plus" remote="generic_github"  />
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" revision="ics" remote="generic_github" />
+  <project path="hardware/qcom/audio" name="android-legacy-repos/platform_hardware_qcom_audio" revision="ics" remote="generic_github" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" revision="ics" remote="generic_github" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="ics" remote="generic_github" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" revision="ics" remote="generic_github" />
