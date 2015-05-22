@@ -5,9 +5,11 @@
   <remote name="moltenmotherboard" fetch="https://github.com/MoltenMotherBoard/" />
   <remote name="generic_github" fetch="https://github.com/" />
 
-  <!-- FIXING SVOX DMCA STUFF -->
+  <!-- FIXING SVOX DMCA STUFF AND DOWN REPOS -->
   <remove-project name="CyanogenMod/android_external_svox" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="external/svox" name="platform/external/svox" remote="aosp" revision="gingerbread-release" />
+  <project path="hardware/ti/wpan" name="android-legacy-repos/platform_hardware_ti_wpan" remote="generic_github" />
 
   <!-- REPOSITORIES FROM MOLTENMOTHERBOARD -->
   <project path="device/samsung/cori" name="platform_device_samsung_cori" revision="cwm-5.0.2.8" remote="moltenmotherboard" />
