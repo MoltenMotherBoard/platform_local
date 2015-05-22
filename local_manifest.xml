@@ -9,7 +9,7 @@
   <remove-project name="CyanogenMod/android_frameworks_base" />
 
   <!-- REPOSITORIES TO BE INCLUDED -->
-  <project path="frameworks/base" name="erikcas/android_frameworks_base" revision="ics-plus" remote="generic_github" />
+  <project path="frameworks/base" name="android-legacy-repos/platform_frameworks_base" revision="ics-plus" remote="generic_github" />
 
   <!-- FIXING SVOX DMCA STUFF -->
   <remove-project name="CyanogenMod/android_external_svox" />
